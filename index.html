@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   <title>Portfolio Bootstrap</title>
   <link
@@ -40,16 +41,16 @@
       <h1>
               I’m Temitope <br />
               Glad to see you!
+      </h1>
       <p class="lead">
         I’m a software developer! I can help you build a product , feature
         or website Look through some of my work and experience! If you
         like what you see and have a project you need coded, don’t
       </p>
-
             <section>
               <h2 class="h6 color-indigo-500">LET'S CONNECT</h2>
               <ul class="d-flex justify-content-between list-unstyled w-25">
-                <li>
+                <li class="me-1 me-lg-0">
                   <a
                     href="https://twitter.com/topeogunleye21"
                     target="_blank"
@@ -60,7 +61,7 @@
                       alt="link to twitter"
                   /></a>
                 </li>
-                <li>
+                <li class="me-1 me-lg-0">
                   <a
                     href="https://www.linkedin.com/in/ogunleye"
                     target="_blank"
@@ -71,7 +72,7 @@
                       alt="link to linkedin"
                   /></a>
                 </li>
-                <li>
+                <li class="me-1 me-lg-0">
                   <a
                     href="https://topeogunleye1.medium.com/"
                     target="_blank"
@@ -83,7 +84,7 @@
                     />
                   </a>
                 </li>
-                <li class="social_li">
+                <li class="me-1 me-lg-0">
                   <a
                     href="https://github.com/topeogunleye"
                     target="_blank"
@@ -95,7 +96,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="me-1 me-lg-0">
                   <a href="" target="_blank" rel="noopener noreferrer">
                     <img
                       src="./images/svg/Vector.svg"
@@ -104,8 +105,8 @@
                 </li>
               </ul>
     </div>
+    </section>
   </section>
-
   <section id="projects" class="container d-flex justify-content-center flex-column m-auto">
     <div class="card w-75 my-5 mx-auto" >
       <img src="./images/png/Snapshoot-Portfolio1.png" class="card-img-top" alt="...">
@@ -123,7 +124,6 @@
         <a href="#" class="card-link">Another link</a>
       </div>
     </div>
-
     <div class="card w-75 my-5 mx-auto">
       <img src="./images/png/Snapshoot-Portfolio2.png" class="card-img-top" alt="...">
       <div class="card-body">
@@ -141,7 +141,6 @@
         <a href="#" class="card-link">Another link</a>
       </div>
     </div>
-
     <div class="card w-75 my-5 mx-auto">
       <img src="./images/png/Snapshoot-Portfolio3.png" class="card-img-top" alt="...">
       <div class="card-body">
@@ -158,12 +157,10 @@
         <a href="#" class="card-link">Github Repo</a>
       </div>
     </div>
-
   </section>
-
   <section id="about" class="mx-auto" >
-          <div class="d-flex container py-5 justify-content-center ">
-            <div class="w-50">
+          <div class="container py-5 justify-content-center row mx-auto">
+            <div class="col-lg-6">
               <h2 class="fs-1 fw-bold">About<br />Myself</h2>
               <p class="lead">
                 Hello I’m a software developer! I can help you build a product ,
@@ -171,11 +168,10 @@
                 If you like what you see and have a project you need coded,
                 don’t hestiate to contact me.
               </p>
-
               <section class="">
                 <h2 class="fs-5">LET'S CONNECT</h2>
                 <ul class="d-flex justify-content-between list-unstyled w-25">
-                  <li class="social_li">
+                  <li class="social_li me-1 me-lg-0">
                     <a
                       href="https://github.com/topeogunleye"
                       target="_blank"
@@ -188,7 +184,7 @@
                       />
                     </a>
                   </li>
-                  <li class="social_li">
+                  <li class="social_li me-1 me-lg-0">
                     <a
                       href="https://www.linkedin.com/in/ogunleye"
                       target="_blank"
@@ -200,7 +196,7 @@
                         class="social_icon"
                     /></a>
                   </li>
-                  <li class="social_li">
+                  <li class="social_li me-1 me-lg-0">
                     <a href="" target="_blank" rel="noopener noreferrer">
                       <img
                         src="./images/svg/Vector.svg"
@@ -208,7 +204,7 @@
                         class="social_icon"
                     /></a>
                   </li>
-                  <li class="social_li">
+                  <li class="social_li me-1 me-lg-0">
                     <a
                       href="https://twitter.com/topeogunleye21"
                       target="_blank"
@@ -220,8 +216,7 @@
                         class="social_icon"
                     /></a>
                   </li>
-
-                  <li class="social_li">
+                  <li class="social_li me-1 me-lg-0">
                     <a
                       href="https://topeogunleye1.medium.com/"
                       target="_blank"
@@ -236,23 +231,21 @@
                   </li>
                 </ul>
               </section>
-
               <button type="button" class="btn btn-outline-primary">Get my resume</button>
-
             </div>
-            <div class="w-50">
-              <ul class="list-unstyled p-5 ">
-                <li aria-expanded="true" class="d-inline-flex justify-content-between align-items-center w-75 lead fs-3" aria-haspopup="true">
+            <div class="col-lg-6 pt-4">
+              <ul class="list-unstyled row ms-lg-5">
+                <li aria-expanded="true" class="d-inline-flex justify-content-between align-items-center lead fs-3" aria-haspopup="true">
                   Languages
                   <!-- Heroicon name: solid/chevron-down -->
                   <i class="fa fa-angle-right"></i>
                 </li>
-                <li aria-expanded="true" class="d-inline-flex justify-content-between align-items-center w-75 lead fs-3" aria-haspopup="true">
+                <li aria-expanded="true" class="d-inline-flex justify-content-between align-items-center lead fs-3" aria-haspopup="true">
                   Framework
                   <!-- Heroicon name: solid/chevron-down -->
                   <i class="fa fa-angle-right"></i>
                 </li>
-                <li aria-expanded="true" class="d-inline-flex justify-content-between align-items-center w-75 lead fs-3"  aria-haspopup="true">
+                <li aria-expanded="true" class="d-inline-flex justify-content-between align-items-center lead fs-3"  aria-haspopup="true">
                   Skills
                   <!-- Heroicon name: solid/chevron-down -->
                   <i class="fa fa-angle-right"></i>
@@ -262,16 +255,15 @@
           </div>
         </section>
 </main>
-
-<footer class="container" id="contact">
-  <div class="w-50 m-auto text-center">
+<footer class="container py-5 mx-auto" id="contact">
+  <div class="row mx-auto text-center">
   <h2 class="contact_header section_header">Contact me</h2>
-          <p>
+          <p class="">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
             to help with it
           </p>
-  <form>
+  <form class="">
     <div class="mb-3">
       <input type="name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="John Doe">
     </div>
@@ -285,8 +277,6 @@
   </form>
 </div>
 </footer>
-
-
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
